@@ -1,11 +1,11 @@
 import React from 'react';
-import '../../styles/index.sass';
+import '@styles/index.sass';
+
+import Main from '@pages/Main';
 
 function App() {
 	return (
-		<div>
-            Hello world!
-		</div>
+		<Main />
 	);
 }
 

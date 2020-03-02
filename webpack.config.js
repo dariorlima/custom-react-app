@@ -8,6 +8,24 @@ module.exports = {
         hot: true,
         progress: true
     },
+    resolve: {
+        extensions: ['.js', '.jsx', '.json', 'sass'],
+        alias: {
+            '@atoms': path.resolve(__dirname, 'src/lib','components/atoms'),
+            '@molecules': path.resolve(__dirname, 'src/lib/components/molecules'),
+            '@organisms': path.resolve(__dirname, 'src/lib/components/organisms'),
+            '@pages': path.resolve(__dirname, 'src/lib/components/pages'),
+            '@templates': path.resolve(__dirname, 'src/lib/components/templates'),
+            '@app': path.resolve(__dirname, 'src/lib/components/app'),
+            '@styles': path.resolve(__dirname, 'src','styles'),
+            '@root/constants': path.resolve(__dirname, 'src/lib/constants'),
+            '@redux/constants': path.resolve(__dirname, 'src/lib/redux/constants'),
+            '@redux/actions': path.resolve(__dirname, 'src/lib/redux/actions'),
+            '@redux/reducer': path.resolve(__dirname, 'src/lib/redux/reducers'),
+            '@redux': path.resolve(__dirname, 'src/lib/redux'),
+            '@root': path.resolve(__dirname, 'src')
+        }
+    },
     module: {
         rules: [
             {

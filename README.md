@@ -9,12 +9,14 @@ This project is based on idea of set a good pattern into your React Application.
 
 # Features to be implemented
 
-Althrough the initial structure for this alternartive to create-react-app is already done, still there are some features coming soon that you can check in the list bellow.
+Although the initial structure for this alternartive to create-react-app is already done, still there are some features that are coming soon and you can check in the list below.
 
 - [x] JSX Components
 - [x] Sass
 - [x] Webpack-Server
 - [x] ESlint
+- [x] Example Code
+- [x] Hide extensions
 - [ ] Image Loader
 - [ ] Jest
 - [ ] Dynamic environment
